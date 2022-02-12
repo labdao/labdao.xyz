@@ -29,7 +29,7 @@
   import 'prismjs/components/prism-json';
 
   import { browser } from '$app/env';
-	import NGL from '$lib/components/ngl.svelte';
+	import NGL from '$lib/components/Ngl.svelte';
 
   let language = 'javascript'
 
