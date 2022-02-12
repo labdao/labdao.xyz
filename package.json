@@ -2,7 +2,7 @@
   "name": "sveltekit-starter",
   "version": "0.1.0",
   "scripts": {
-    "dev": "svelte-kit dev",
+    "dev": "svelte-kit dev --port 4501",
     "devopen": "svelte-kit dev --open",
     "build": "svelte-kit build",
     "package": "svelte-kit package",
@@ -21,7 +21,6 @@
     "@tailwindcss/forms": "^0.4.0",
     "@tailwindcss/typography": "^0.5.0",
     "autoprefixer": "^10.4.0",
-    "coeur": "^0.2.311",
     "cssnano": "^5.0.15",
     "cytosis": "^0.0.5",
     "mdsvex": "^0.9.8",
@@ -40,7 +39,6 @@
     "svelte-preprocess": "^4.10.1",
     "svelte-seo": "^1.3.1",
     "sveltejs-adapter-ipfs": "^0.2.1",
-    "tailwind-elements": "^0.2.0",
     "tailwindcss": "^3.0.18"
   },
   "type": "module",

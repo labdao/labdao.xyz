@@ -35,17 +35,11 @@ module.exports = {
       //   'team-lg': '1200px',
     },
     extend: {
-      // colors: {
-      //   // ...colors // include all default colors
-      //   // copy: '#303030',
-      //   // _yellow: '#FFD028', // 'hsla(47, 100%, 58%, 1)', // brand yellow (header tab)
-      //   // _black: 'hsla(0, 0%, 0%, 1)', // for black bgs
-      //   // _link: '#7411D7',
-      //   // '_link-hover': '#D71188',
-      //   // _footerGray: 'hsla(47, 5%, 22%, 1)',
-      //   // _hover: '#403C2E',
-      //   // active: 'blue'
-      // },
+      colors: {
+        copy: '#063022',
+        brand: '#85E0B4',
+        active: 'hsla(151, 46%, 47%, 1)',
+      },
       gridTemplateColumns: {
         '3-1': '3fr 1fr',
         '3-2': '3fr 2fr',
@@ -74,10 +68,10 @@ module.exports = {
       }
     },
     fontFamily: {
-      'sans': ['"Inter"', '"Open Sans"', 'system-ui'],
-      'serif': ['"Editorial New"', 'Georgia', 'Constantia', 'serif'],
-      'mono': ['Consolas', '"Courier New"', 'Courier', 'monospace'],
-      'display': ['Editorial New'],
+      'sans': ['"ModelSans"', 'sans-serif'],
+      'serif': ['"Calluna"', 'serif'],
+      'mono': ['"ModelMono"', 'mono'],
+      'display': ['"Calluna"', 'serif'],
     },
   },
   variants: {
@@ -90,14 +84,10 @@ module.exports = {
     plugin(function ({ addBase }) {
       addBase({
         '@font-face': {
-          // fontFamily: 'Editorial New',
-          // fontWeight: '300',
-          // src: ['url(/fonts/editorial-new/PPEditorialNew-Regular.eot)',
-          //   'url(/fonts/editorial-new/PPEditorialNew-Regular.otf)',
-          //   'url(/fonts/editorial-new/PPEditorialNew-Regular.ttf)',
-          //   'url(/fonts/editorial-new/PPEditorialNew-Regular.woff)',
-          //   'url(/fonts/editorial-new/PPEditorialNew-Regular.woff2)',
-          // ]
+          fontFamily: 'Calluna',
+          fontWeight: '400',
+          src: ['url(/fonts/calluna/Calluna-Regular4.woff) format("woff")',
+          ]
         }
       })
     }),

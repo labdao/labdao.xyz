@@ -6,28 +6,28 @@ import { writable, get } from 'svelte/store';
 // this uses svelte-seo schema
 export let head = {
   baseUrl: import.meta.env.VITE_BASE_URL,
-  title: "Sveltekit Starter",
-  description: "This is a starter",
-  url: "https://www.example.com/articles/article-title",
+  title: "LabDAO",
+  description: "Open tools accelerate progress",
+  url: "https://labdao.com",
   // canonical: import.meta.env ? import.meta.env.VITE_SITE_URL : 'https://www.example.com', // breaks on vercel
-  canonical: 'https://www.example.com',
+  canonical: 'https://labdao.com',
   // tags: ["Tag A"]
   pageName: '',
-  color: '#5432CA',
+  color: '#85E0B4',
   twitter: "@yawnxyz",
   author: 'Jan Zheng',
-  ico: '/favicon.ico',
+  ico: '/labdao-icon.png',
   image: {
-    url: "/pd_share.jpg",
-    width: 850,
-    height: 650,
-    alt: "Alt text for the card!",
+    url: "/labdao-site-cover.png",
+    width: 1500,
+    height: 500,
+    alt: "LabDAO logo",
   },
   meta: [
-    { hid: 'google-site-verification', name: 'google-site-verification', content: "FV3L35TjM9haadbuZvHLDz2n-I1KUbN_gYqM3cIH0Wk" },
   ],
 }
-head = { ...head,
+head = {
+  ...head,
   links: [
     { rel: 'icon', type: 'image/png', href: head.ico }, // <link rel="icon" sizes="192x192" href="/path/to/icon.png">
     { rel: 'apple-touch-icon', href: head.ico }, // default resolution is 192x192 <link rel="apple-touch-icon" href="/path/to/apple-touch-icon.png">

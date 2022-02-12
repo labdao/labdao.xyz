@@ -11,10 +11,110 @@
 
 
 // @import '@fontsource/inter';
-@import '@fontsource/inter/300';
-@import '@fontsource/inter/400';
-@import '@fontsource/inter/700';
+// @import '@fontsource/inter/300';
+// @import '@fontsource/inter/400';
+// @import '@fontsource/inter/700';
 /* @import '@fontsource/fira-mono'; */
+
+
+// @font-face {
+//   font-family: Calluna;
+//   src: url('/fonts/calluna/Calluna-Regular4.woff') format("woff");
+// }
+
+@font-face {
+  font-family: ModelSans;
+  src: url('/fonts/modelstandard-sans/ModelStandard-Regular-Sans.woff') format("woff"),
+       url('/fonts/modelstandard-sans/ModelStandard-Regular-Sans.woff2') format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+  @font-face {
+    font-family: ModelSans;
+    src: url('/fonts/modelstandard-sans/ModelStandard-Regular-Sans-Italic.woff') format("woff"),
+        url('/fonts/modelstandard-sans/ModelStandard-Regular-Sans-Italic.woff2') format("woff2");
+    font-weight: 400;
+    font-style: italic;
+  }
+@font-face {
+  font-family: ModelSans;
+  src: url('/fonts/modelstandard-sans/ModelStandard-Medium-Sans.woff') format("woff"),
+       url('/fonts/modelstandard-sans/ModelStandard-Medium-Sans.woff2') format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+  @font-face {
+    font-family: ModelSans;
+    src: url('/fonts/modelstandard-sans/ModelStandard-Medium-Sans-Italic.woff') format("woff"),
+        url('/fonts/modelstandard-sans/ModelStandard-Medium-Sans-Italic.woff2') format("woff2");
+    font-weight: 500;
+    font-style: italic;
+  }
+@font-face {
+  font-family: ModelSans;
+  src: url('/fonts/modelstandard-sans/ModelStandard-Bold-Sans.woff') format("woff"),
+       url('/fonts/modelstandard-sans/ModelStandard-Bold-Sans.woff2') format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+  @font-face {
+    font-family: ModelSans;
+    src: url('/fonts/modelstandard-sans/ModelStandard-Bold-Sans-Italic.woff') format("woff"),
+        url('/fonts/modelstandard-sans/ModelStandard-Bold-Sans-Italic.woff2') format("woff2");
+    font-weight: 700;
+    font-style: italic;
+  }
+
+
+
+
+
+@font-face {
+  font-family: ModelMono;
+  src: url('/fonts/modelstandard-mono/ModelStandard-Regular-Mono.woff') format("woff"),
+       url('/fonts/modelstandard-mono/ModelStandard-Regular-Mono.woff2') format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+  @font-face {
+    font-family: ModelMono;
+    src: url('/fonts/modelstandard-mono/ModelStandard-Regular-Mono-Italic.woff') format("woff"),
+        url('/fonts/modelstandard-mono/ModelStandard-Regular-Mono-Italic.woff2') format("woff2");
+    font-weight: 400;
+    font-style: italic;
+  }
+@font-face {
+  font-family: ModelMono;
+  src: url('/fonts/modelstandard-mono/ModelStandard-Medium-Mono.woff') format("woff"),
+       url('/fonts/modelstandard-mono/ModelStandard-Medium-Mono.woff2') format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+  @font-face {
+    font-family: ModelMono;
+    src: url('/fonts/modelstandard-mono/ModelStandard-Medium-Mono-Italic.woff') format("woff"),
+        url('/fonts/modelstandard-mono/ModelStandard-Medium-Mono-Italic.woff2') format("woff2");
+    font-weight: 500;
+    font-style: italic;
+  }
+@font-face {
+  font-family: ModelMono;
+  src: url('/fonts/modelstandard-mono/ModelStandard-Bold-Mono.woff') format("woff"),
+       url('/fonts/modelstandard-mono/ModelStandard-Bold-Mono.woff2') format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+  @font-face {
+    font-family: ModelMono;
+    src: url('/fonts/modelstandard-mono/ModelStandard-Bold-Mono-Italic.woff') format("woff"),
+        url('/fonts/modelstandard-mono/ModelStandard-Bold-Mono-Italic.woff2') format("woff2");
+    font-weight: 700;
+    font-style: italic;
+  }
+
+
+
+
 
 @tailwind base;
 @tailwind components;
@@ -34,6 +134,13 @@
   ._content {
     @apply relative max-w-7xl mx-auto p-4 w-full h-full
   }
+
+
+  html {
+    font-size: 1rem;
+    @apply text-copy;
+  }
+
 }
 
 
@@ -47,30 +154,26 @@
 
 */
 /* sets base font size for tw */
-html {
-  font-size: 1rem
-}
-
-.headline {
-  @apply font-display;
-  text-rendering: geometricprecision;
-}
+// .headline {
+//   @apply font-display;
+//   text-rendering: geometricprecision;
+// }
 
 h1 {
-  @apply text-5xl leading-tight lg:text-6xl lg:leading-tight pb-8
+  @apply text-7xl leading-none pb-8 font-serif
 }
-  h1.article-title  {
-    @apply text-6xl md:text-5xl font-display leading-tight pb-8
-  }
+  // h1.article-title  {
+  //   @apply text-6xl md:text-5xl font-display leading-tight pb-8
+  // }
 h2 {
-  @apply text-5xl md:text-4xl pb-6
+  @apply text-5xl md:text-4xl pb-6 font-serif
 }
   *>h1,*>h2,*>h3,*>h4,*>h5,*>h6 { 
     @apply pt-12
   }
 
 h3 {
-  @apply text-4xl md:text-3xl  pb-6
+  @apply text-3xl pb-6 font-mono
 }
 h4 {
   @apply text-2xl pb-4

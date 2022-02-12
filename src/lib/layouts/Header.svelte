@@ -1,7 +1,7 @@
 
 <script>
 	import { page } from '$app/stores';
-	import logo from '../../../static/labdao-logo-wip.png'; // static necessary for ipfs
+	import logo from '../../../static/labdao-full-2x.png'; // static necessary for ipfs
 
 	import Desktop from '$lib/components/shared/MenuDesktop.svelte';
 	import Mobile from '$lib/components/shared/MenuMobile.svelte';
@@ -9,7 +9,9 @@
 </script>
 
 
-<Desktop {logo} {page} />
+<div class="_content mt-4">
+  <Desktop {logo} {page} />
+</div>
 <!-- <Mobile {logo} {page} /> -->
 
 <!-- 
