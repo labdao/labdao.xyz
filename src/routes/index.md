@@ -2,8 +2,8 @@
 <article class="_content">
 
   <div class="hero">
-    <h1 class="font-serif sm:text-4xl">Open tools <br>accelerate progress</h1>
-    <h3 class="mt-8 sm:text-2xl pl-8 pt-0 pb-0 border-l-4 border-slate-200">
+    <h1 class="font-serif sm:text-2xl">Open tools <br>accelerate progress</h1>
+    <h3 class="mt-8 sm:text-lg pl-8 pt-0 pb-0 border-l-4 border-slate-200">
 An open, community-run network of wet & dry laboratory services to advance progress in the life sciences
 </h3>
     <!-- <p>
