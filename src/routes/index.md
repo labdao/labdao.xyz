@@ -1,8 +1,6 @@
 
 <article class="_content">
 
-  <!-- # hello! {class="p-16 text-blue-400"} -->
-
   <div class="hero">
     <h1 class="font-serif">Open tools <br>accelerate progress</h1>
     <h3 class="mt-8 pl-8 pt-0 pb-0 border-l-4 border-slate-200">Decentralizing bioinformatics <br> to advance progress in life science</h3>
@@ -16,6 +14,9 @@
 
   </div>
 
+  <div class=" mt-24">
+    <Demo />
+  </div>
 
 
   <!-- <p>
@@ -26,3 +27,8 @@
   </p> -->
 
 </article>
+
+
+<script>
+	import Demo from '@lib/components/NglDemo.svelte';
+</script>
