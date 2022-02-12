@@ -19,48 +19,48 @@
 
 // @font-face {
 //   font-family: Calluna;
-//   src: url('https://github.com/labDAO/typefaces/raw/main/calluna/Calluna-Regular4.woff') format("woff");
+//   src: url('/fonts/calluna/Calluna-Regular4.woff') format("woff");
 // }
 
 @font-face {
   font-family: ModelSans;
-  src: url('https://github.com/labDAO/typefaces/raw/main/modelstandard-sans/ModelStandard-Regular-Sans.woff') format("woff"),
-       url('https://github.com/labDAO/typefaces/raw/main/modelstandard-sans/ModelStandard-Regular-Sans.woff2') format("woff2");
+  src: url('/fonts/modelstandard-sans/ModelStandard-Regular-Sans.woff') format("woff"),
+       url('/fonts/modelstandard-sans/ModelStandard-Regular-Sans.woff2') format("woff2");
   font-weight: 400;
   font-style: normal;
 }
   @font-face {
     font-family: ModelSans;
-    src: url('https://github.com/labDAO/typefaces/raw/main/modelstandard-sans/ModelStandard-Regular-Sans-Italic.woff') format("woff"),
-        url('https://github.com/labDAO/typefaces/raw/main/modelstandard-sans/ModelStandard-Regular-Sans-Italic.woff2') format("woff2");
+    src: url('/fonts/modelstandard-sans/ModelStandard-Regular-Sans-Italic.woff') format("woff"),
+        url('/fonts/modelstandard-sans/ModelStandard-Regular-Sans-Italic.woff2') format("woff2");
     font-weight: 400;
     font-style: italic;
   }
 @font-face {
   font-family: ModelSans;
-  src: url('https://github.com/labDAO/typefaces/raw/main/modelstandard-sans/ModelStandard-Medium-Sans.woff') format("woff"),
-       url('https://github.com/labDAO/typefaces/raw/main/modelstandard-sans/ModelStandard-Medium-Sans.woff2') format("woff2");
+  src: url('/fonts/modelstandard-sans/ModelStandard-Medium-Sans.woff') format("woff"),
+       url('/fonts/modelstandard-sans/ModelStandard-Medium-Sans.woff2') format("woff2");
   font-weight: 500;
   font-style: normal;
 }
   @font-face {
     font-family: ModelSans;
-    src: url('https://github.com/labDAO/typefaces/raw/main/modelstandard-sans/ModelStandard-Medium-Sans-Italic.woff') format("woff"),
-        url('https://github.com/labDAO/typefaces/raw/main/modelstandard-sans/ModelStandard-Medium-Sans-Italic.woff2') format("woff2");
+    src: url('/fonts/modelstandard-sans/ModelStandard-Medium-Sans-Italic.woff') format("woff"),
+        url('/fonts/modelstandard-sans/ModelStandard-Medium-Sans-Italic.woff2') format("woff2");
     font-weight: 500;
     font-style: italic;
   }
 @font-face {
   font-family: ModelSans;
-  src: url('https://github.com/labDAO/typefaces/raw/main/modelstandard-sans/ModelStandard-Bold-Sans.woff') format("woff"),
-       url('https://github.com/labDAO/typefaces/raw/main/modelstandard-sans/ModelStandard-Bold-Sans.woff2') format("woff2");
+  src: url('/fonts/modelstandard-sans/ModelStandard-Bold-Sans.woff') format("woff"),
+       url('/fonts/modelstandard-sans/ModelStandard-Bold-Sans.woff2') format("woff2");
   font-weight: 700;
   font-style: normal;
 }
   @font-face {
     font-family: ModelSans;
-    src: url('https://github.com/labDAO/typefaces/raw/main/modelstandard-sans/ModelStandard-Bold-Sans-Italic.woff') format("woff"),
-        url('https://github.com/labDAO/typefaces/raw/main/modelstandard-sans/ModelStandard-Bold-Sans-Italic.woff2') format("woff2");
+    src: url('/fonts/modelstandard-sans/ModelStandard-Bold-Sans-Italic.woff') format("woff"),
+        url('/fonts/modelstandard-sans/ModelStandard-Bold-Sans-Italic.woff2') format("woff2");
     font-weight: 700;
     font-style: italic;
   }
@@ -71,43 +71,43 @@
 
 @font-face {
   font-family: ModelMono;
-  src: url('https://github.com/labDAO/typefaces/raw/main/modelstandard-mono/ModelStandard-Regular-Mono.woff') format("woff"),
-       url('https://github.com/labDAO/typefaces/raw/main/modelstandard-mono/ModelStandard-Regular-Mono.woff2') format("woff2");
+  src: url('/fonts/modelstandard-mono/ModelStandard-Regular-Mono.woff') format("woff"),
+       url('/fonts/modelstandard-mono/ModelStandard-Regular-Mono.woff2') format("woff2");
   font-weight: 400;
   font-style: normal;
 }
   @font-face {
     font-family: ModelMono;
-    src: url('https://github.com/labDAO/typefaces/raw/main/modelstandard-mono/ModelStandard-Regular-Mono-Italic.woff') format("woff"),
-        url('https://github.com/labDAO/typefaces/raw/main/modelstandard-mono/ModelStandard-Regular-Mono-Italic.woff2') format("woff2");
+    src: url('/fonts/modelstandard-mono/ModelStandard-Regular-Mono-Italic.woff') format("woff"),
+        url('/fonts/modelstandard-mono/ModelStandard-Regular-Mono-Italic.woff2') format("woff2");
     font-weight: 400;
     font-style: italic;
   }
 @font-face {
   font-family: ModelMono;
-  src: url('https://github.com/labDAO/typefaces/raw/main/modelstandard-mono/ModelStandard-Medium-Mono.woff') format("woff"),
-       url('https://github.com/labDAO/typefaces/raw/main/modelstandard-mono/ModelStandard-Medium-Mono.woff2') format("woff2");
+  src: url('/fonts/modelstandard-mono/ModelStandard-Medium-Mono.woff') format("woff"),
+       url('/fonts/modelstandard-mono/ModelStandard-Medium-Mono.woff2') format("woff2");
   font-weight: 500;
   font-style: normal;
 }
   @font-face {
     font-family: ModelMono;
-    src: url('https://github.com/labDAO/typefaces/raw/main/modelstandard-mono/ModelStandard-Medium-Mono-Italic.woff') format("woff"),
-        url('https://github.com/labDAO/typefaces/raw/main/modelstandard-mono/ModelStandard-Medium-Mono-Italic.woff2') format("woff2");
+    src: url('/fonts/modelstandard-mono/ModelStandard-Medium-Mono-Italic.woff') format("woff"),
+        url('/fonts/modelstandard-mono/ModelStandard-Medium-Mono-Italic.woff2') format("woff2");
     font-weight: 500;
     font-style: italic;
   }
 @font-face {
   font-family: ModelMono;
-  src: url('https://github.com/labDAO/typefaces/raw/main/modelstandard-mono/ModelStandard-Bold-Mono.woff') format("woff"),
-       url('https://github.com/labDAO/typefaces/raw/main/modelstandard-mono/ModelStandard-Bold-Mono.woff2') format("woff2");
+  src: url('/fonts/modelstandard-mono/ModelStandard-Bold-Mono.woff') format("woff"),
+       url('/fonts/modelstandard-mono/ModelStandard-Bold-Mono.woff2') format("woff2");
   font-weight: 700;
   font-style: normal;
 }
   @font-face {
     font-family: ModelMono;
-    src: url('https://github.com/labDAO/typefaces/raw/main/modelstandard-mono/ModelStandard-Bold-Mono-Italic.woff') format("woff"),
-        url('https://github.com/labDAO/typefaces/raw/main/modelstandard-mono/ModelStandard-Bold-Mono-Italic.woff2') format("woff2");
+    src: url('/fonts/modelstandard-mono/ModelStandard-Bold-Mono-Italic.woff') format("woff"),
+        url('/fonts/modelstandard-mono/ModelStandard-Bold-Mono-Italic.woff2') format("woff2");
     font-weight: 700;
     font-style: italic;
   }

@@ -86,16 +86,7 @@ module.exports = {
         '@font-face': {
           fontFamily: 'Calluna',
           fontWeight: '400',
-          src: ['url("https://github.com/labDAO/typefaces/raw/main/calluna/Calluna-Regular4.woff") format("woff")',
-          ]
-        },
-        '@font-face': {
-          fontFamily: 'ModelSans',
-          fontWeight: '400',
-          fontStyle: 'normal',
-          src: [
-            'url("https://github.com/labDAO/typefaces/raw/main/modelstandard-sans/ModelStandard-Regular-Sans.woff") format("woff")',
-            'url("https://github.com/labDAO/typefaces/raw/main/modelstandard-sans/ModelStandard-Regular-Sans.woff2") format("woff2")',
+          src: ['url(/fonts/calluna/Calluna-Regular4.woff) format("woff")',
           ]
         }
       })
