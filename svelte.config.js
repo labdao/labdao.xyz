@@ -17,8 +17,8 @@ const config = {
     mdsvex({
       extensions: ['.md'],
       layout: {
-        blog: 'src/routes/blog/_post.svelte',
-        content: 'src/lib/layouts/_contentTmpl.svelte'
+        // blog: 'src/routes/blog/_post.svelte',
+        // content: 'src/lib/layouts/_contentTmpl.svelte'
       },
       remarkPlugins: [
         remarkAttr,
@@ -38,7 +38,7 @@ const config = {
     // adapter: adapter_static(),
 
     // hydrate the <div id="svelte"> element in src/app.html
-    target: '#svelte',
+    // target: '#svelte',
     vite: {
       resolve: {
         alias: {

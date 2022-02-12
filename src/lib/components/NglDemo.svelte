@@ -26,7 +26,7 @@
 
 <script>
   import Prism from 'prismjs';
-  import 'prismjs/components/prism-json';
+  // import 'prismjs/components/prism-json';
 
   import { browser } from '$app/env';
 	import NGL from '$lib/components/Ngl.svelte';

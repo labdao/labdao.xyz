@@ -2,7 +2,7 @@
 
 <!-- desktop nav -->
 <script>
-  export let logo, page
+  export let logo
   // import { prefetch, prefetchRoutes } from '$app/navigation'
 
   // prefetch('/blog') // Loads the blog page in the background

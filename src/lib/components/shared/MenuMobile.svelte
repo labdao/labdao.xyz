@@ -1,8 +1,8 @@
 
 
 <!-- desktop nav -->
-<script>
-  export let logo, page
+<!-- <script>
+  export let logo
 </script>
 
 <header>
@@ -21,8 +21,7 @@
 	</nav>
 
 	<div class="corner">
-		<!-- TODO put something else here? github link? -->
 	</div>
 </header>
 
-  
+   -->
