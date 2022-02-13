@@ -6,15 +6,13 @@
   </pre> -->
 
 
-<div class="grid gap-4 grid-cols-2">
+<div class="md:grid gap-4 grid-cols-2">
   <div class="code">
-    <pre class="line-numbers language-json">
-      {@html Prism.highlight(JSON.stringify(codeblock,null,2), Prism.languages[language])}
-    </pre>
+    <pre class="line-numbers language-json">{@html Prism.highlight(JSON.stringify(codeblock,null,2), Prism.languages[language])}</pre>
   </div>
 
   <div class="">
-    <div class="ngl">
+    <div class="ngl overflow-auto">
       <NGL height={"347px"} />
     </div>
   </div>
