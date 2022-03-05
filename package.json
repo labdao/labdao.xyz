@@ -1,5 +1,5 @@
 {
-  "name": "sveltekit-starter",
+  "name": "labdao-landing",
   "version": "0.1.0",
   "scripts": {
     "dev": "svelte-kit dev --port 4501",
@@ -8,6 +8,7 @@
     "package": "svelte-kit package",
     "preview": "svelte-kit preview",
     "commit": "git add . -A ; git commit ; git push origin main ",
+    "staging": "git add . -A ; git commit ; git push origin staging ",
     "commitprod": "git add . -A ; git commit ; git push origin prod ",
     "notes": "yarn install necessary to include any yarn linked components",
     "stage": "yarn install; vercel",
@@ -25,7 +26,6 @@
     "cssnano": "^5.0.15",
     "cytosis": "^0.0.5",
     "mdsvex": "^0.9.8",
-    "plasmid": "git+https://github.com/janzheng/plasmid.git",
     "postcss": "^8.4.5",
     "postcss-import": "^14.0.2",
     "postcss-load-config": "^3.1.0",
@@ -40,7 +40,8 @@
     "svelte-preprocess": "^4.10.1",
     "svelte-seo": "^1.3.1",
     "sveltejs-adapter-ipfs": "^0.2.1",
-    "tailwindcss": "^3.0.18"
+    "tailwindcss": "^3.0.18",
+    "tw-elements": "^1.0.0-alpha11"
   },
   "type": "module",
   "dependencies": {
@@ -49,7 +50,8 @@
     "@sveltejs/adapter-vercel": "^1.0.0-next.43",
     "cookie": "^0.4.1",
     "ngl": "^0.10.4",
-    "prismjs": "^1.26.0"
+    "prismjs": "^1.26.0",
+    "svelte-file-dropzone": "^1.0.0-dev.1"
   },
   "publishConfig": {
     "@janzheng:registry": "https://npm.pkg.github.com"
