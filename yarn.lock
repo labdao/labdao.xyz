@@ -957,6 +957,13 @@ fetch-blob@^2.1.1:
   resolved "https://registry.yarnpkg.com/fetch-blob/-/fetch-blob-2.1.2.tgz#a7805db1361bd44c1ef62bb57fb5fe8ea173ef3c"
   integrity sha512-YKqtUDwqLyfyMnmbw8XD6Q8j9i/HggKtPEI+pZ1+8bvheBu78biSmNaXWusx1TauGqtUUGx/cBb1mKdq2rLYow==
 
+file-selector@^0.2.2:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/file-selector/-/file-selector-0.2.4.tgz#7b98286f9dbb9925f420130ea5ed0a69238d4d80"
+  integrity sha512-ZDsQNbrv6qRi1YTDOEWzf5J2KjZ9KMI1Q2SGeTkCJmNNW25Jg4TW4UMcmoqcg4WrAyKRcpBXdbWRxkfrOzVRbA==
+  dependencies:
+    tslib "^2.0.3"
+
 file-type@^17.1.1:
   version "17.1.1"
   resolved "https://registry.yarnpkg.com/file-type/-/file-type-17.1.1.tgz#24c59bc663df0c0c181b31dfacde25e06431afbe"
@@ -2053,6 +2060,13 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
+svelte-file-dropzone@^1.0.0-dev.1:
+  version "1.0.0-dev.1"
+  resolved "https://registry.yarnpkg.com/svelte-file-dropzone/-/svelte-file-dropzone-1.0.0-dev.1.tgz#0d763880d34a1f860297fc4e87acda6058eeddb7"
+  integrity sha512-u0kxaUsgXiNBye0EzP+NlyA2/AlgtvtvmP6ywfDxBx8kRzld7Yeo34KIKTpD/R7qYy4YhqTu0OA1V0fwY1/IoQ==
+  dependencies:
+    file-selector "^0.2.2"
+
 svelte-hmr@^0.14.9:
   version "0.14.9"
   resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.14.9.tgz#35f277efc789e1a6230185717347cddb2f8e9833"
@@ -2168,6 +2182,11 @@ trough@^2.0.0:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/trough/-/trough-2.0.2.tgz#94a3aa9d5ce379fc561f6244905b3f36b7458d96"
   integrity sha512-FnHq5sTMxC0sk957wHDzRnemFnNBvt/gSY99HzK8F7UP5WAbvP70yX5bd7CjEQkN+TjdxwI7g7lJ6podqrG2/w==
+
+tslib@^2.0.3:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
+  integrity sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==
 
 type@^1.0.1:
   version "1.2.0"
