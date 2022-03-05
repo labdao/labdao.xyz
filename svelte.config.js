@@ -33,18 +33,15 @@ const config = {
 
   // Deploy to Fleek if the FLEEK env var is present, otherwise deploy to Vercel
   kit: {
-    adapter: {
-      name: 'environment-sensitive-adapter',
-      adapt: () => process.env.FLEEK
-        ? adapter_ipfs({
-          // assets: './build',
-          // pages: './build',
-          removeBuiltInServiceWorkerRegistration: true,
-          injectPagesInServiceWorker: true,
-          injectDebugConsole: true,
-        })
-        : adapter_vercel(),
-    },
+    adapter: process.env.FLEEK
+      ? adapter_ipfs({
+        assets: './build',
+        pages: './build',
+        removeBuiltInServiceWorkerRegistration: true,
+        injectPagesInServiceWorker: true,
+        injectDebugConsole: true,
+      })
+      : adapter_vercel(),
 
     vite: {
       resolve: {
