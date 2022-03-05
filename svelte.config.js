@@ -11,15 +11,6 @@ import rehypeSlug from 'rehype-slug'
 import 'dotenv/config'
 // import autoprefixer from 'autoprefixer'
 
-const ipfsAdapter = adapter_ipfs({
-  assets: './build',
-  pages: './build',
-  removeBuiltInServiceWorkerRegistration: true,
-  injectPagesInServiceWorker: true,
-  injectDebugConsole: true,
-});
-const vercelAdapter = adapter_vercel();
-
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
   preprocess: [
@@ -44,7 +35,15 @@ const config = {
   kit: {
     adapter: {
       name: 'environment-sensitive-adapter',
-      adapt: () => process.env.FLEEK ? ipfsAdapter : vercelAdapter,
+      adapt: () => process.env.FLEEK
+        ? adapter_ipfs({
+          // assets: './build',
+          // pages: './build',
+          removeBuiltInServiceWorkerRegistration: true,
+          injectPagesInServiceWorker: true,
+          injectDebugConsole: true,
+        })
+        : adapter_vercel(),
     },
 
     vite: {

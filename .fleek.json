@@ -4,7 +4,7 @@
    "command": "npm install && npm run build",
    "publicDir": "build",
    "environment": {
-     "SOME_ENV": "Build finished!"
+     "FLEEK": true
    }
  }
 }
