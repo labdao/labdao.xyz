@@ -15,7 +15,7 @@
   </div>
 
   <div class="">
-    <!-- <Revue /> -->
+    <Revue />
   </div>
 
   <div class="mt-16 sm:mt-24">
