@@ -1,7 +1,7 @@
 
 <script>
 	// import { page } from '$app/stores';
-	import logo from '../../../static/labdao-full-2x.png'; // static necessary for ipfs
+	import logo from '../../../static/images/labdao-full-2x.png'; // static necessary for ipfs
 
 	import Desktop from '$lib/components/shared/MenuDesktop.svelte';
 	import Mobile from '$lib/components/shared/MenuMobile.svelte';
