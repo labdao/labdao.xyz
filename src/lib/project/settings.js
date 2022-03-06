@@ -16,7 +16,7 @@ export let head = {
   color: '#85E0B4',
   twitter: "@yawnxyz",
   author: 'Jan Zheng',
-  ico: '/labdao-icon.png',
+  ico: '/images/labdao-icon.png',
   image: {
     // url: "https://www.labdao.com/labdao-site-cover.jpg",
     width: 1500,
