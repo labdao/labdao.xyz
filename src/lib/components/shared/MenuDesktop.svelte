@@ -23,7 +23,7 @@
       Github
     </a>
     <a sveltekit:prefetch class="text-xl ml-2 decoration-transparent hover:fill-_hover" href='https://twitter.com/lab_dao'>
-      @lab_dao
+      Twitter
     </a>
   </div>
 </header>
