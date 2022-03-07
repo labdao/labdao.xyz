@@ -22,12 +22,8 @@
     <a sveltekit:prefetch class="text-xl ml-2 decoration-transparent hover:fill-_hover" href='https://github.com/labdao'>
       <img src={githubLogo} class="inline w-6 h-6" alt="Github logo" />&nbsp;<div class="hidden md:inline">Github</div>
     </a>
-    <a sveltekit:prefetch class="text-xl ml-2 decoration-transparent hover:fill-_hover" href='https://twitter.com/lab_dao'>
-<<<<<<< HEAD
-      Twitter
-=======
+    <a sveltekit:prefetch class="text-xl pl-6 decoration-transparent hover:fill-_hover " href='https://twitter.com/lab_dao'>
       <img src={twitterLogo} class="inline w-6 h-6" alt="Twitter logo" />&nbsp;<div class="hidden md:inline">Twitter</div>
->>>>>>> 65c989e878b8461c442e6269e23b0cc22945e27e
     </a>
   </div>
 </header>
