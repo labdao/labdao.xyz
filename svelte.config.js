@@ -33,7 +33,7 @@ const config = {
 
   // Deploy to Fleek if the FLEEK env var is present, otherwise deploy to Vercel
   kit: {
-    adapter: process.env.FLEEK
+    adapter: !!process.env.FLEEK
       ? adapter_ipfs({
         assets: './build',
         pages: './build',
