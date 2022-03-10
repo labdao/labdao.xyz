@@ -18,7 +18,7 @@ export let head = {
   author: 'Jan Zheng',
   ico: '/images/labdao-icon.png',
   image: {
-    // url: "https://www.labdao.com/labdao-site-cover.jpg",
+    url: "https://www.labdao.com/images/labdao-site-cover.jpg",
     width: 1500,
     height: 500,
     alt: "LabDAO logo",
