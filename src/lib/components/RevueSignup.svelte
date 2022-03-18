@@ -16,6 +16,6 @@
         </div>
       </div>
     </div>
-    <div class="pt-2 revue-form-footer">By subscribing, you agree with Revue’s <a target="_blank" href="https://www.getrevue.co/terms">Terms of Service</a> and <a target="_blank" href="https://www.getrevue.co/privacy">Privacy Policy</a>.</div>
+    <div class="pt-2 revue-form-footer">Read the <a target="_blank" href="https://newsletter.labdao.com">Newsletter</a> first. Contribute to the Newsletter on <a target="_blank" href="https://github.com/labdao/newsletter">GitHub</a>. By subscribing, you agree with Revue’s <a target="_blank" href="https://www.getrevue.co/terms">Terms of Service</a> and <a target="_blank" href="https://www.getrevue.co/privacy">Privacy Policy</a>.</div>
   </form>
 </div>
