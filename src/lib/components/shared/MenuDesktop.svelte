@@ -1,8 +1,13 @@
 <!-- desktop nav -->
 <script>
   export let logo
+
+  import NavLink from '../NavLink.svelte'
+
   import githubLogo from '../../../../static/images/github-logo.svg'
   import twitterLogo from '../../../../static/images/twitter-logo.svg'
+  import snapshotLogo from '../../../../static/images/snapshot-logo.png'
+  import discourseLogo from '../../../../static/images/discourse-logo.png'
   // import { prefetch, prefetchRoutes } from '$app/navigation'
 
   // prefetch('/blog') // Loads the blog page in the background
@@ -19,12 +24,10 @@
     </div>
   </div>
   <div class="corner">
-    <a sveltekit:prefetch class="text-xl ml-2 decoration-transparent hover:fill-_hover" href='https://github.com/labdao'>
-      <img src={githubLogo} class="inline w-6 h-6" alt="Github logo" />&nbsp;<div class="hidden md:inline">Github</div>
-    </a>
-    <a sveltekit:prefetch class="text-xl pl-6 decoration-transparent hover:fill-_hover " href='https://twitter.com/lab_dao'>
-      <img src={twitterLogo} class="inline w-6 h-6" alt="Twitter logo" />&nbsp;<div class="hidden md:inline">Twitter</div>
-    </a>
+    <NavLink logo={githubLogo} alt="Github logo" text="Github" href="https://githubLogo.com/labdao" className="ml-2" />
+    <NavLink logo={twitterLogo} alt="Twitter logo" text="Twitter" href="https://twitter.com/lab_dao" className="pl-4" />
+    <NavLink logo={snapshotLogo} alt="Snapshot logo" text="Snapshot" href="https://snapshot.org/#/labdao.eth" className="pl-4" />
+    <NavLink logo={discourseLogo} alt="Discourse logo" text="Forum" href="https://forum.labdao.com" className="pl-4" />
   </div>
 </header>
 
