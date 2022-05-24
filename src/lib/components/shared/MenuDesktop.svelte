@@ -24,7 +24,7 @@
     </div>
   </div>
   <div class="corner">
-    <NavLink logo={githubLogo} alt="Github logo" text="Github" href="https://githubLogo.com/labdao" className="ml-2" />
+    <NavLink logo={githubLogo} alt="Github logo" text="Github" href="https://github.com/labdao" className="ml-2" />
     <NavLink logo={twitterLogo} alt="Twitter logo" text="Twitter" href="https://twitter.com/lab_dao" className="pl-4" />
     <NavLink logo={snapshotLogo} alt="Snapshot logo" text="Snapshot" href="https://snapshot.org/#/labdao.eth" className="pl-4" />
     <NavLink logo={discourseLogo} alt="Discourse logo" text="Forum" href="https://forum.labdao.com" className="pl-4" />
