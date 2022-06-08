@@ -9,7 +9,7 @@
     </p> -->
     <div class="mt-16 sm:mt-24 mb-16">
       <a class="block sm:inline-block mb-8 mr-4 rounded-full no-underline hover:no-underline font-mono font-medium text-copy bg-brand hover:bg-active hover:text-copy py-4 px-8 transition" href="https://discord.gg/labdao" >Join our Discord</a>
-      <a class="antialiased rounded-full no-underline hover:no-underline font-mono font-medium text-slate-100 bg-slate-900 hover:bg-slate-100 hover:text-slate-900 py-4 px-8 transition" href="https://docs.labdao.com">Read the Docs</a>
+      <a class="antialiased rounded-full no-underline hover:no-underline font-mono font-medium text-slate-100 bg-slate-900 hover:bg-slate-100 hover:text-slate-900 py-4 px-8 transition" href="https://docs.labdao.xyz">Read the Docs</a>
     </div>
 
   </div>
