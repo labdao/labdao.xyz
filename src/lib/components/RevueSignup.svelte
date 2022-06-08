@@ -4,7 +4,7 @@
     The future of biomedical science is an open, community-run network of laboratories 🧑‍🔬 — Read our newsletter
   </p>
 
-  <form action="https://newsletter.labdao.com/add_subscriber" method="post" id="revue-form" name="revue-form"  target="_blank">
+  <form action="https://newsletter.labdao.xyz/add_subscriber" method="post" id="revue-form" name="revue-form"  target="_blank">
     <div class="revue-form-group">
       <label for="member_email">Email address</label>
       <div class="flex items-center">

@@ -8,9 +8,9 @@ export let head = {
   baseUrl: import.meta.env.VITE_BASE_URL,
   title: "LabDAO",
   description: "Open tools accelerate progress",
-  url: "https://labdao.com",
+  url: "https://labdao.xyz",
   // canonical: import.meta.env ? import.meta.env.VITE_SITE_URL : 'https://www.example.com', // breaks on vercel
-  canonical: 'https://labdao.com',
+  canonical: 'https://labdao.xyz',
   // tags: ["Tag A"]
   pageName: '',
   color: '#85E0B4',
@@ -18,7 +18,7 @@ export let head = {
   author: 'Jan Zheng',
   ico: '/images/labdao-icon.png',
   image: {
-    url: "https://www.labdao.com/images/labdao-site-cover.jpg",
+    url: "https://www.labdao.xyz/images/labdao-site-cover.jpg",
     width: 1500,
     height: 500,
     alt: "LabDAO logo",
