@@ -3,7 +3,7 @@
 
   <div class="hero">
     <h1 class="font-serif">Open tools <br>accelerate progress</h1>
-    <h3 class="mt-8  pl-4 sm:pl-8 pt-0 pb-0 border-l-4 border-slate-200">An open, community-run network of wet & dry laboratory services to advance progress in the life sciences</h3>
+    <h3 class="mt-8  pl-4 sm:pl-8 pt-0 pb-0 border-l-4 border-slate-200">An open, community-run network of wet & dry laboratories accelerating progress in the life sciences</h3>
     <!-- <p>
       At LabDAO, we are coming together to build a community-owned and operated platform to run experiments, exchange protocols, and share data. We believe there's a future in biotech research where data share is incentivized, and the barrier from idea to reality is minimized by a more advanced marketplace.
     </p> -->
